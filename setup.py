@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pywkher',
-    version='1.0.4',
+    version='1.0.5',
     url='https://github.com/codetalkrs/pywkher',
     author='Jason Mayfield',
     author_email='jason@codetalk.rs',
@@ -19,13 +19,14 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules',
-        ],
+    ],
     install_requires=[
-        'Mock==1.0b1',
-        ],
+        'Mock>=1.0.1',
+    ],
     test_suite='tests',
     zip_safe=False
 )
