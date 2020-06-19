@@ -5,3 +5,4 @@ v1.0.3,   5/25/2013 -- Create package manifest.
 v1.0.4,   5/25/2013 -- Don't automatically delete temp files, to make sure they're available to return.
 v1.0.5-HK 2/18/2020 -- Fix Mock dependency, assert Py3 compatible
 v1.0.6-HK 2/25/2020 -- Bump included wkhtmltopdf-heroku binary (0.12.5)
+v2.0.0-HK 6/19/2020 -- Add Python3 compatibility by adding wrapper bash script for pip installer.

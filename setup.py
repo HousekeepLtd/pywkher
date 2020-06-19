@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pywkher',
-    version='1.0.6',
+    version='2.0.0',
     url='https://github.com/jwmayfield/pywkher',
 
     author_email='jason@codetalk.rs',
