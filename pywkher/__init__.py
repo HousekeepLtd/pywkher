@@ -1,4 +1,4 @@
-from os import chmod, environ, path as os_path
+from os import environ
 from subprocess import call as call_subprocess
 from tempfile import NamedTemporaryFile
 
