@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+"""
+We wrap the execution of the binary in a Python3 class to keep the new (Py3)
+versions of setuptools happy
+"""
+
+import pywkher
+import subprocess
+import sys
+
+path = pywkher.__path__[0]
+command = [path + '/bin/wkhtmltopdf-heroku']
+command.extend(sys.argv[1:])
+subprocess.call(command)

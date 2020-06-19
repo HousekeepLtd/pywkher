@@ -24,7 +24,9 @@ setup(
         'Mock>=1.0.1',
     ],
     long_description=open('README.rst').read(),
+    package_data={'pywkher': ['bin/wkhtmltopdf-heroku']},
     packages=['pywkher', ],
+    scripts=['pywkher/bin/wkhtmltopdf-wrapper'],
     test_suite='tests',
     zip_safe=False
 )

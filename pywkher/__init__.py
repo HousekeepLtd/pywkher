@@ -10,7 +10,7 @@ def generate_pdf(html='', url=''):
     if html and url:
         raise ValueError('Must pass HTML or specify a URL, not both')
 
-    wkhtmltopdf_default = 'wkhtmltopdf-heroku'
+    wkhtmltopdf_default = 'wkhtmltopdf-wrapper'
 
     # Reference command
     wkhtmltopdf_cmd = environ.get('WKHTMLTOPDF_CMD', wkhtmltopdf_default)
